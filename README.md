@@ -40,13 +40,13 @@ To run this analysis locally, ensure you have Python installed along with the fo
 ## Key Insights
 
 ### 1. Performance on Fear vs. Greed Days
-* **Fear is Profitable:** Traders perform significantly better during "Fear" market conditions, achieving their highest average win rate (~41.5%) and highest average daily PnL (~$209,000).
+* **Fear is Profitable:** Traders perform significantly better during "Fear" market conditions, achieving their highest average win rate (41.5%) and highest average daily PnL ($209,000).
 * **Controlled Drawdowns:** Risk is managed better during Fear days. Average losses on red days are relatively contained.
 * **Greed Causes Catastrophe:** During "Greed" days, average profits are cut in half. Furthermore, the severity of losing days is massive, with average daily drawdowns exceeding -$327,000. 
 
 ### 2. Behavioral Shifts Based on Sentiment
-* **Frequency Skyrockets in Fear:** On Fear days, traders execute nearly four times as many trades (~4,183 per day) compared to Greed days (~1,134 per day), pointing to heavy scalping or active risk management.
-* **Blind Buying in Greed:** During "Extreme Greed," the Long/Short ratio explodes, indicating traders heavily bias toward Longs and ignore downside risk. Fear brings balance, dropping the L/S ratio to ~0.96 (a nearly equal hedge of buying and selling).
+* **Frequency Skyrockets in Fear:** On Fear days, traders execute nearly four times as many trades (4,183 per day) compared to Greed days (1,134 per day), pointing to heavy scalping or active risk management.
+* **Blind Buying in Greed:** During "Extreme Greed," the Long/Short ratio explodes, indicating traders heavily bias toward Longs and ignore downside risk. Fear brings balance, dropping the L/S ratio to 0.96 (a nearly equal hedge of buying and selling).
 
 ### 3. Trader Segmentation Performance
 * **Active Traders Dominate:** "Frequent Traders" perform significantly better than "Infrequent Traders." When the market hits "Extreme Greed," infrequent traders average a net loss, while frequent traders stay profitable.
@@ -66,6 +66,6 @@ Based on the data-driven insights above, here are two actionable rules of thumb 
 ## Bonus: Behavioral Archetype Clustering
 Using a K-Means clustering algorithm on the scaled lifetime data, three distinct trader archetypes were identified:
 
-1. **The Retail Scalpers (Cluster 0):** Execute massive volumes of trades (>8,000) with the highest win rate (46%), but utilize the smallest average position sizes (~$2,800).
+1. **The Retail Scalpers (Cluster 0):** Execute massive volumes of trades (>8,000) with the highest win rate (46%), but utilize the smallest average position sizes ($2,800).
 2. **The High-Rolling Whales (Cluster 1):** Execute moderate trade volumes but dominate with massive position sizes (averaging >$16,000 per trade) and maintain a solid 35% win rate.
 3. **The Casual Amateurs (Cluster 2):** Struggle the most, executing the fewest trades with a highly unprofitable 22% win rate.
