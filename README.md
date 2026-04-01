@@ -1,6 +1,6 @@
 # Trader-Performance-vs-Market-Sentiment-
-Primetrade.ai data science assignment round 0
-# Primetrade.ai Data Science Intern Assignment: Trader Performance vs Market Sentiment
+
+#Data Science Intern Assignment - Round 0: Trader Performance vs Market Sentiment
 
 ## Objective
 This project analyzes how Bitcoin market sentiment (Fear vs. Greed) relates to trader behavior and overall performance on the Hyperliquid platform. The ultimate goal is to uncover actionable behavioral patterns that can inform smarter, automated trading strategies and risk management engines.
